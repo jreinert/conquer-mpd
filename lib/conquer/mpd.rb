@@ -21,7 +21,7 @@ module Conquer
         async.run
       end
 
-      def start
+      def run
         publish(:mpd, @mpd)
         loop do
           `mpc #{"-h #{@host}" if @host} idle #{@events.join(' ')}`
