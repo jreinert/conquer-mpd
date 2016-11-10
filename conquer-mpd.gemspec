@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'conquer', '~> 0.1'
   spec.add_dependency 'ruby-mpd', '~> 0.3'
+  spec.add_dependency 'celluloid', '~> 0.17'
 end
